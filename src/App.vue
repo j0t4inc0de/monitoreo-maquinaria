@@ -7,10 +7,10 @@
           <h2 class="text-lg font-bold leading-tight tracking-[-0.015em] text-gray-900 dark:text-white">Monitoreo de transporte</h2>
         </div>
         <div class="flex items-center gap-4">
+          <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-10 w-10" data-alt="User profile picture" :style="userProfileStyle"></div>
           <button type="button" title="Cerrar Sesión" class="flex h-10 w-10 cursor-pointer items-center justify-center overflow-hidden rounded-full bg-gray-100 text-gray-700 transition-colors hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600">
             <span class="material-symbols-outlined text-xl">logout</span>
           </button>
-          <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-10 w-10" data-alt="User profile picture" :style="userProfileStyle"></div>
         </div>
       </header>
 
